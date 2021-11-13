@@ -44,7 +44,7 @@
 				<true/>
 				<key>port-count</key>
 				<data>
-				CgAAAA==
+				CAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -59,12 +59,12 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						AgAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS03</key>
 					<dict>
@@ -78,7 +78,7 @@
 					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -86,17 +86,17 @@
 					</dict>
 					<key>HS05</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BQAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BgAAAA==
@@ -104,17 +104,17 @@
 					</dict>
 					<key>HS07</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						BwAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS08</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CAAAAA==
@@ -122,21 +122,21 @@
 					</dict>
 					<key>HS09</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						CQAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS10</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
+						<key>#port</key>
 						<data>
 						CgAAAA==
 						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>HS11</key>
 					<dict>
