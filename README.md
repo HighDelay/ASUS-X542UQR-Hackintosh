@@ -9,3 +9,5 @@ This EFI works best with Ventura, so I will only be updating OC but not
 the OS.
 
 Sleep only works with the power adapter unplugged.
+
+Replaced the wifi card with "Intel Dual Band Wireless-AC 3165"
