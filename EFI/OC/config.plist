@@ -1218,7 +1218,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1369,7 +1369,7 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02836108J9HWVP1F</string>
+			<string>C02946270GUJH4R8C</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1381,11 +1381,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,1</string>
+			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XC01WHV29</string>
+			<string>C02ZP0DWJHCC</string>
 			<key>SystemUUID</key>
-			<string>B269F6EE-6E3C-4923-9902-F9F39E377447</string>
+			<string>2B2D1EE2-E73C-440B-9D9C-239B0CC82242</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
