@@ -11,7 +11,8 @@ Opencore 0.8.9
 
 config.plist were configured based on [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html)
 
-SMBIOS: MacBookPro15,2 /w working CPU PM + CPUFriend & USB mapping using [USBMap](https://github.com/corpnewt/USBMap)
+SMBIOS: MacBookPro14,1 /w working CPU PM + CPUFriend & USB mapping using 
+[USBMap](https://github.com/corpnewt/USBMap)
 
 
 This EFI works best with Ventura, so I will only be updating OC but not 
