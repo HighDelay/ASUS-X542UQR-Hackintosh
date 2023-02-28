@@ -21,3 +21,5 @@ the OS. **Perhaps**
 Sleep only works with the power adapter unplugged.
 
 Replaced the wifi card with "Intel Dual Band Wireless-AC 3165"
+
+Voltageshift: `./voltageshift buildlaunchd -99.6 0 -99.6 0 0 0 1 15 15 0 120`
