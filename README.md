@@ -7,7 +7,7 @@ GPU: Intel UHD 620
 GPU2: Nvidia Geforce 940MX
 ```
 
-Opencore 0.8.9
+Opencore 0.9.0
 
 config.plist were configured based on [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html)
 
