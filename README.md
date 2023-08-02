@@ -22,6 +22,6 @@ the OS. **Perhaps**
 
 Sleep only works with the power adapter unplugged.
 
-Replaced the wifi card with "Intel Dual Band Wireless-AC 3165"
+Replaced the wifi card with "Intel Dual Band Wireless-AC 3165" For Sonoma, use [This version of Itlwm](https://github.com/OpenIntelWireless/itlwm/issues/883#issuecomment-1639920021) [Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/437#issuecomment-1579931908)
 
 Voltageshift (CPU Undervolting): `./voltageshift buildlaunchd -99.6 0 -99.6 0 0 0 1 15 15 0 120`
