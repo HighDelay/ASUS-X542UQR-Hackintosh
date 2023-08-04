@@ -259,8 +259,6 @@
 				<data>AACbPg==</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>enable-backlight-registers-alternative-fix</key>
-				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1358,7 +1356,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-wegnoegpu -v keepsyms=1 debug=0x100 alcid=66</string>
+				<string>-wegnoegpu -igfxblt -v keepsyms=1 debug=0x100 alcid=66</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
