@@ -14,7 +14,7 @@ the OS. **Perhaps**
 
 ~~**Note for Sonoma (8/2/2023):** MacOS Sonoma no longer supports any 2017 Macbook models that have Intel Kabylake CPUs in them, which means drivers for Kabylake iGPU will be removed. However, at the moment I'm writing this, MacOS Sonoma is still in the beta stage, and drivers and kexts for Kabylake iGPU are still there and work fine, but there is a high chance that they will be removed when the beta is over. So you should keep yourself posted on the repo, I'm going to update it (spoof the iGPU to Coffelake equivalent) when an official release of MacOS Sonoma comes out. If the drivers are still available, I'll leave it as is.~~
 
-**Note for Sonoma (8/3/2023):** Spoofed the iGPU as Coffeelake's Intel UHD 630. However, this causes changing the laptop screen's brightness to not work (Max brightness on default).
+**Note for Sonoma (8/3/2023):** Spoofed the iGPU as Coffeelake's Intel UHD 630. However, this causes changing the laptop screen's brightness to not work (Max brightness on default). If the drivers and kexts aren't removed when the beta is over, I'll switch back to Kabylake to fix brightness control issue.
 
 **To fix black screen no backlight add this to `boot-args`**
 ```
