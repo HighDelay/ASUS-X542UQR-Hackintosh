@@ -7,12 +7,10 @@ GPU: Intel UHD 620
 GPU2: Nvidia Geforce 940MX
 ```
 
-**Hackintosh Ventura & Sonoma / Opencore 0.9.6 / Asus Vivobook 15 X542UQ"R"**
+**Hackintosh Ventura, Sonoma, and Sequoia / Opencore 1.0.2 / Asus Vivobook 15 X542UQ"R"**
 
-This EFI works best with Ventura & Sonoma, and mainly Sonoma, so I will only be updating OC but not 
+This EFI works best with Ventura, Sonoma, and Sequoia, so I will only be updating OC but not 
 the OS. **Perhaps**
-
-**Note for Sonoma (11/7/2023):** Turned out spoofing iGPU wasn't necessary
 
 config.plist was configured based on [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html)
 
@@ -21,7 +19,9 @@ config.plist was configured based on [this guide](https://dortania.github.io/Ope
 
 Sleep only works with the power adapter unplugged.
 
-Replaced the wifi card with "Intel Dual Band Wireless-AC 3165" For Sonoma, use [Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/issues/437#issuecomment-1579931908)
+Replace the wifi card with "Intel Dual Band Wireless-AC 3165"
+
+Turn `CFG Lock` and `VT-d` off via modGRUBShell
 
 Voltageshift (CPU Undervolting): `./voltageshift buildlaunchd -99.6 0 -99.6 0 0 0 1 15 15 0 120`
 
