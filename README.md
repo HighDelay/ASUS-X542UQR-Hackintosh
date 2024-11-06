@@ -21,8 +21,7 @@ Sleep only works with the power adapter unplugged.
 
 Replace the wifi card with "Intel Dual Band Wireless-AC 3165"
 
-Turn `CFG Lock` and `VT-d` off via [modGRUBShell with guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#turning-off-cfg-lock-manually)
-If you don't know how to do this, change `AppleXcpmCfgLock` to `True` in the config.plist otherwise your hack will not boot
+Turn `CFG Lock` and `VT-d` off via [modGRUBShell with guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#turning-off-cfg-lock-manually) - If you don't know how to do this, change `AppleXcpmCfgLock` to `True` in the config.plist otherwise your hack will not boot
 
 Voltageshift (CPU Undervolting): `./voltageshift buildlaunchd -99.6 0 -99.6 0 0 0 1 15 15 0 120`
 
